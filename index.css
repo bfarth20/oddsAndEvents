@@ -1,0 +1,109 @@
+/* index.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #b1b1ef;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(146, 204, 255);
+  border-radius: 5px;
+  border: 20px solid rgb(100, 150, 200);
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(146, 204, 255);
+  border-radius: 5px;
+  border: 20px solid rgb(100, 150, 200);
+  margin: 10px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#sort-1,
+#sort-all {
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.odd,
+.even {
+  margin-top: 30px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  flex: 1 1 0;
+  min-width: 50px;
+  font-size: 18px;
+  margin: 5px 0;
+}
